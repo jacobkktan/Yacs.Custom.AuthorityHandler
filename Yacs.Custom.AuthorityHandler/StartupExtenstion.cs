@@ -11,7 +11,7 @@ namespace Yacs.Custom.AuthorityHandler
         public static IServiceCollection AddCustomAuthHandler(this IServiceCollection services, YacsPermissionsHandlerOption option)
         {
             services.AddHttpClient(YacsPermissionsConstants.RestApiName, conf => conf.BaseAddress = option.RestSource);
-            services.AddScoped<IAuthorizationHandler, YacsPermissionsHandler>();            
+            services.AddScoped<IAuthorizationHandler, YacsPermissionsHandler>();
             services.AddSingleton(p => option);
             return services;
         }
