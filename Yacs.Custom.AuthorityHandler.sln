@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yacs.Custom.AuthorityHandler", "Yacs.Custom.AuthorityHandler\Yacs.Custom.AuthorityHandler.csproj", "{F8701A31-C9A3-4018-8978-94297D36FEFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8701A31-C9A3-4018-8978-94297D36FEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8701A31-C9A3-4018-8978-94297D36FEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8701A31-C9A3-4018-8978-94297D36FEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8701A31-C9A3-4018-8978-94297D36FEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134674E1-05AF-4E37-90C8-7C616AB48BB8}
+	EndGlobalSection
+EndGlobal
